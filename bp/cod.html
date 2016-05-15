@@ -17,15 +17,15 @@
             <header>
                 <img src="http://www.w3.org/2013/share-psi/logo/share_psi_logo_horz_RGB.svg" width="354" height="122" alt="Share-PSI 2.0 logo" />
                 <h1 style="margin-top:0">Best Practice: Categorise openness of data</h1>
-                <h2>Draft: 11 February 2016</h2>
+                <h2>Draft: 15 May 2016</h2>
 
                 <dl>
                     <dt>This version</dt>
-                    <dd><a href="http://www.w3.org/2013/share-psi/bp/cod-20160211/">http://www.w3.org/2013/share-psi/bp/cod-20160211/</a></dd>
+                    <dd><a href="http://www.w3.org/2013/share-psi/bp/cod-20160515/">http://www.w3.org/2013/share-psi/bp/cod-20160515/</a></dd>
                     <dt>Latest version</dt>
                     <dd><a href="http://www.w3.org/2013/share-psi/bp/cod/">http://www.w3.org/2013/share-psi/bp/cod/</a></dd>
                     <dt>Previous version</dt>
-                    <dd><a href="http://www.w3.org/2013/share-psi/bp/cod-20151012/">http://www.w3.org/2013/share-psi/bp/cod-20151012/</a></dd>
+                    <dd><a href="http://www.w3.org/2013/share-psi/bp/cod-20160211/">http://www.w3.org/2013/share-psi/bp/cod-20160211/</a></dd>
                 </dl>
 
 <p>This is one of a <a href="/2013/share-psi/bp/#bps">set of Best Practices</a> developed by the <a href="http://www.w3.org/2013/share-psi/">Share-PSI 2.0 Thematic Network</a>.</p>
@@ -39,7 +39,7 @@ is licensed under a <a rel="license" href="http://creativecommons.org/licenses/b
 
             <main>
                 <section id="outline"><h2>Outline</h2>
-                    <p>Establishing a colour code or other scheme to categorise the openness of data makes it easier for public sector organisations to determine with whom data can be shared.</p>
+                    <p>Establishing a simple system to categorise the openness of data makes it easier for public sector organisations to determine with whom data can be shared and what datasets to prioritise for opening up.</p>
                 </section>
 
                 <section id="psilinks"><h2>Links to the Revised PSI Directive</h2>
@@ -47,27 +47,33 @@ is licensed under a <a rel="license" href="http://creativecommons.org/licenses/b
                 </section>
 
                 <section id="challenge"><h2>Challenge</h2>
-                    <p>How to ensure that data is shared with the authorised users even if some restrictions apply?</p>
-                    <p>Public sector organisations often only consider what can be open for all. However, it may also be useful to publish data that can be shared under certain restrictions.</p>
+                    <p>How to ensure that data is shared with the authorised users and to identify datasets which can be easily opened up for all?</p>
+                    <p>Public sector organisations often only consider</p>
+                    <ul>
+                        <li>what can be open for all and don’t think about datasets which can be shared or</li>
+                        <li>get concerned about the difficult datasets which cannot be opened, rather then identifying the low hanging fruit which can be made easily available.</li>
+                    </ul>
+                    <p>However, it may also be useful to publish data that can be shared under certain restrictions.</p>
                 </section>
 
                 <section id="solution"><h2>Solution</h2>
-                    <p>Both open data and data with restrictions can be published with an indication of how open it is:</p>
+                    <p>Descriptions on both open data and data with legal restrictions can be published with an indication of who it can be shared with. DCAT-APs “access right” property can be used for this purpose, combined with a color code system for end users</p>
                     <ul>
-                        <li>green for data that can be made available with no restrictions;</li>
-                        <li>yellow for data that is not open for all and has some restrictions;</li>
-                        <li>red for data than is highly sensitive and can only be made available under strict conditions.</li>
+                        <li>:public (green) for data that can be made available with no restrictions;</li>
+                        <li>:restricted (yellow) for data that is not open for all and has some restrictions,and data which an organisation may be unsure of the status of;</li>
+                        <li>:non public (red) for data that is sensitive and can only be made available under strict conditions.</li>
                     </ul>
-                    <p>Colour code is not the only way to denote the category of data openness. Other scheme with the similar meaning could be used as well.</p>
+                    <p>Colour code is not the only way to denote the category of data openness. Other schemes with a similar meaning could be used as well.</p>
                 </section>
 
                 <section id="why"><h2>Why is this a Best Practice?</h2>
-                    <p>This best practice allows a twin-track approach: 'publish early even if imperfect' and a commitment to a 'high quality core.' This twin-track policy will maximise the benefit within practical constraints. It will reduce the excuses for poor or slow delivery; it says 'get it all out and then improve.'</p>
-                    <p>The categorisation is simple. It is not designed to facilitate a deep and exhaustive mapping of data in an organisation, but rather it allows for an initial overview and categorisation to get the ball rolling.</p>                    
+                    <p>The categorisation is simple. It is not designed to facilitate a deep and exhaustive mapping of data in an organisation, but rather it allows for an initial overview and categorisation to get the ball rolling.</p>
+                    <p>By providing transparency on what information your agency holds, it is possible for reusers to provide feedback on your priorities and for other public sector bodies to discover datasets they potentially can reuse (under certain legal restricions).</p>
                 </section>
 
                 <section id="implement"><h2>How do I implement this Best Practice?</h2>
                     <p>The only major requirement here is that someone has responsibility to perform this for the organisation. Technical requirements are minimal. Some simple tools are necessary to assist in the identification and release of some data early.</p>
+                    <p>Establish an overview of managed datasets in your organization and implement a basic legal examination of the content of each dataset. Use DCAT-APs access rights property to indicate level of openness.</p>
                 </section>
 
                 <section id="where">
